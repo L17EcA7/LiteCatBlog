@@ -208,12 +208,12 @@ params:
     giscus: &giscus
       repo: "LiteCat0905/MyBlog"
       repoID: "R_kgDOJF-oDg"
-      category: "DIC_kwDOJF-oDs4CUruP"
-      categoryID: "DIC_kwDOJF-oDs4CUruP"
+      category: "Announcements"
+      categoryID: "DIC_kwDOJF-oDs4CUruO"
       mapping: "pathname"
       reactionsEnabled: 1
       emitMetadata: 0
-      lazy: false
+      lazy: true
       lang: "zh-CN"
 
   # Rss 配置
@@ -249,7 +249,7 @@ params:
 
   # 标题计数器
   # Title counter
-  headlineCounter: false
+  headlineCounter: true
 
   # 固定导航栏
   # Fixed navigation bar
@@ -341,7 +341,7 @@ params:
   # Read English content faster, see https://bionic-reading.com/
   bionicReading:
     enabled: true
-    autoBionic: false # 自动启用 Bionic Reading / auto enable Bionic Reading
+    autoBionic: true # 自动启用 Bionic Reading / auto enable Bionic Reading
     skipLinks: false # 跳过链接 / skip links
     excludeWords: [] # 忽略的单词 / ignored words
     excludeNodeNames: [] # 忽略的节点名称 / ignored node names
@@ -440,7 +440,7 @@ params:
     - RTCraft
     - 961274111
     - 深髓
-  description: "在线病毒"
+  description: "LiteCat的博客，是一款在线病毒。"
 
 build:
   noJSConfigInAssets: true
