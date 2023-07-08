@@ -1,0 +1,25 @@
+{{- if eq .Type "posts" -}}
+    {{- partial "article-list/type/posts" . }}
+{{- else if eq .Type "checkmark" -}}
+<!-- 圆圈对勾 -->
+    {{- partial "article-list/type/icon-checkmark" . }}
+{{- else if eq .Type "edit" -}}
+<!-- 编辑 -->
+    {{- partial "article-list/type/icon-edit" . }}
+{{- else if eq .Type "archive" -}}
+<!-- 纸箱子 -->
+    {{- partial "article-list/type/icon-archive" . }}
+{{- else if eq .Type "bulb" -}}
+<!-- 灯泡 -->
+    {{- partial "article-list/type/icon-bulb" . }}
+{{- else if eq .Type "compass" -}}
+<!-- 指南针 -->
+    {{- partial "article-list/type/icon-compass" . }}
+{{- else if eq .Type "code" -}}
+<!-- 代码 < > -->
+    {{- partial "article-list/type/icon-code" . }}
+{{- else -}}
+    {{- partial "article-list/type/status" . }}
+<!-- 普通文章 -->
+    
+{{- end -}}
