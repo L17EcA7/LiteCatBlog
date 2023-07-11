@@ -13,6 +13,7 @@ keywords:
 tags: ["文档翻译","MINECRAFT","SPIGOT"]
 ---
 ## 插件介绍
+
 {{< link-card name="Cinematic Studio | Cutscenes Creation Tool" desc="电影工作室 |过场动画创建工具;电影工作室是一个工具，允许您创建过场动画。这些动画包括移动角色，流畅的摄像机移动，效果和声音！" link="https://www.spigotmc.org/resources/cinematic-studio-cutscenes-creation-tool.88671/" img="https://www.spigotmc.org/data/resource_icons/88/88671.jpg?1665754967" >}}
 
 {{< accordion "特征" >}}
@@ -143,30 +144,30 @@ Cinematic Studio是一款功能强大的工具，可以让您创建复杂的电�
 ### 时间轴
 这是所有重要编辑发生的地方。每一行代表一个剪辑场景的不同方面。从上到下依次为 时间、镜头、NPC、特效和声音。要播放剪辑，请按**底部的播放图标**。
 要删除场景，请按红色方块。(如果您不小心按下，会出现 "您确定吗？）
-![时间轴](./img/5.1.png)
+![时间轴](5.1.png)
 
 ### 第1行：时间
 了解场景是如何播放的非常重要。一旦您开始一个场景，它将从左到右执行动作。您可以有多个页面来制作更长的场景。一旦播放到某个箱子菜单槽，例如，它可能会生成一个NPC。您可以点击一个黑色的彩色玻璃物品来给它一个值，来决定它应该等待多长时间才继续下一个插槽。这个值将是场景在继续之前等待的时间（以秒为单位）。这样您就可以在每个事件之间设定时间间隔。如果您不使用该值，那么所有事件都将在完全相同的时间播放。如果您中键点击任何节点，您可以在剪辑中添加额外的一排节点，试试看吧，当您想在剪辑中间添加额外的东西时，它会很有意义并且很方便。
-![时间](./img/5.2.png)
+![时间](5.2.png)
 
 ### 第2行："摄像机"
 这一行用于控制摄像机的移动。如果你不需要任何东西，那么就把这一行留空。如果您想创建一个新的摄像机位置，只需点击其中一个节点并回答聊天中提出的问题即可。接下来，在第1行添加延迟，然后添加另一个摄像机位置。记住添加最后的定时节点，以防止在摄像机移动结束前结束剪辑。
-![摄像机](./img/5.3.png)
+![摄像机](5.3.png)
 ### 第3行："角色
 这是有趣的一行。在这里您可以控制生成的角色（NPC）。点击其中一个节点开始。当您点击其中任何一个节点时，它会询问您是要编辑现有的NPC还是要生成一个新的NPC。然后它会将您发送到新NPC自定义菜单。
-![](./img/5.4.png)
+![](5.4.png)
 
 ### 第4行和第5行："效果和声音"
 这两行允许您添加特效，如信息、粒子或时间变化。声音选项卡允许您查看所有音效，以便将其添加到场景中。
 
 {{< gallery >}}
-![](./img/5.5.png)
-![](./img/5.2.2.webp)
+![](5.5.png)
+![](5.2.2.webp)
 {{< /gallery >}}
 
 ### 如何触发场景？
 有许多选项可供您触发这些场景。我将逐一介绍。要进入配置菜单，请进入场景的时间轴。这是场景的主页面，点击最下面一行写着 "场景触发器 "的空地图项。它会将您发送到下面的箱子菜单：
-![](./img/5.6webp.webp)
+![](5.6webp.webp)
 在这里你有三个选项：
 #### 选项1：区域触发器：
 如果你点击这个项目，它会要求你定义一个区域的角。这两个角会形成一个立方体。如果玩家进入立方体，将播放该玩家的剪辑。第三个问题是该场景是否可以多次播放。如果您写的是 "否"，那么该区域只能为每个玩家触发一次场景。如果您的答案是 "是"，那么每次玩家进入时，该场景都会开始。右键单击该项删除该区域。
@@ -183,34 +184,37 @@ Cinematic Studio是一款功能强大的工具，可以让您创建复杂的电�
 创建一个新的场景并为其命名。
 ### 第三步
 现在您已进入编辑器！点击第一行的第一个节点，该节点前面有一个摄像机图标。
-![](./img/6.png)
+![](6.png)
 ### 第四步
 现在走到你想要摄像机的位置。您可以使用观众模式来获得更精确的效果。
 然后使用`/cinematic input teleport`命令确认。
 ### 第五步
 点击刚才编辑的摄像机节点上方的节点并写入 "100"。
 这将使动画在继续到下一个节点之前等待100ticks。
-![](./img/7.png)
+![](7.png)
 ### 第六步
 点击之前编辑的节点右侧的节点。
 现在走到你希望摄像机所在的位置。您可以使用观众模式获得更精确的效果。
 然后使用`/cinematic input move 40 precise`命令确认。
 这将使从第一个摄像机位置到当前位置的动画变得流畅。
-![](./img/8.png)
+![](8.png)
 ### 第七步
 点击新摄像机位置上方的节点，再次写入 "100"。
 这将使动画等待 100 秒后结束，而不是在到达新摄像机位置后立即结束。
 ### 第八步
 点击播放按钮（底部）开始播放剪辑。如果您的操作正确，您现在应该有一个在这两个位置之间平滑平移的摄像机路径！
-![](./img/9.png)
+![](9.png)
 ### 演示视频
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gUoOeuzQvQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## 特效
+
 > 这些特效需要资源包才能使用。
 
 从这里下载：
-{{< link-card name="CinematicsStudio_pack_1.0.zip" desc="DOWN DOWN DOWN~!" link="./img/CinematicsStudio_pack_1.0.zip" >}}
+
+{{< link-card name="CinematicsStudio_pack_1.0.zip" desc="DOWN DOWN DOWN~!" link="CinematicsStudio_pack_1.0.zip" >}}
 
 ### 镜头切换间的淡入淡出
 #### 第一步
@@ -218,35 +222,39 @@ Cinematic Studio是一款功能强大的工具，可以让您创建复杂的电�
 ```
 title %player% times 20 20 20
 ```
-![](./img/10.png)
-![](./img/11.png)
-![](./img/12.png)
+![](10.png)
+![](11.png)
+![](12.png)
 
 #### 第二步
 在动画开始处添加一个新{{< tag-outlined orange "特效" >}} ，然后选择命令并在聊天中写入该{{< tag-outlined orange "命令" >}}。
 ```
 title %player% title {"text":"A","font":"cinematics:various"}
 ```
-![](./img/13.png)
-![](./img/14.png)
-![](./img/15.png)
+![](13.png)
+![](14.png)
+![](15.png)
 
 信箱（黑条）
 资源包提供了雕刻南瓜（Carved Pumpkin）特殊纹理来创建信箱效果。
 要触发此效果，您必须在时间轴编辑器中启用它。
+
 #### 大功告成
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yv-4vQQK1x4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## NPC皮肤
 ### 创建NPC皮肤
 为了给您的玩家NPC添加自定义皮肤，您必须使用本网站：
-{{< link-card name="MineSkin" desc="MineSkin.org是一款Minecraft皮肤生成器，您只需上传皮肤图片，即可获得带有有效签名的皮肤纹理数据。这些皮肤可用于游戏中的玩家头像、玩家NPC或更改玩家皮肤。" link="https://mineskin.org/" img="https://mineskin.org/img/mineskin-x256.png" >}}
+
+{{< link-card name="MineSkin" desc="MineSkin.org是一款Minecraft皮肤生成器，您只需上传皮肤图片，即可获得带有有效签名的皮肤纹理数据。这些皮肤可用于游戏中的玩家头像、玩家NPC或更改玩家皮肤。" link="https://mineskin.org/" img="https://mineskin.orgmineskin-x256.png" >}}
+
 ### 选择一个皮肤文件
-![](./img/17.png)
+![](17.png)
 ### 按生成
-![](./img/18.png)
+![](18.png)
 ### 复制第一个URL并在CinematicsStudio插件中使用。
-![](./img/19.png)
+![](19.png)
 ## 服务条款
 购买前请记住
 - ⛔**在寻求支持之前，请阅读维基百科。**
@@ -279,11 +287,11 @@ title %player% title {"text":"A","font":"cinematics:various"}
 如果您想在动画中使用剑和物品，您必须只使用最后一个热栏插槽。
 第一个插槽保留给特殊动画。
 {{< gallery >}}
-![](./img/20.png)
-![](./img/21.webp)
+![](20.png)
+![](21.webp)
 {{< /gallery >}}
 ### "您发送了太多的数据包，:("
-![](./img/22.png)
+![](22.png)
 
 ```
 tracking-warning-pps: 500
