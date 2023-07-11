@@ -1,0 +1,4 @@
+Sitemap: https://www.litecat.buzz/ja/sitemap.xml
+Sitemap: https://www.litecat.buzz/en-us/sitemap.xml
+Sitemap: https://www.litecat.buzz/zh-cn/sitemap.xml
+Sitemap: https://www.litecat.buzz/notes/sitemap.xml
