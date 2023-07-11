@@ -446,6 +446,35 @@ build:
   noJSConfigInAssets: true
 
 languages:
+  notes:
+    contentDir: content/notes
+    languageName: 中文
+    params:
+      languageIcon: "images/i18n/zh-cn.svg" # in assets folder
+      font: "Times New Roman,Times,Heti Song,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol"
+      twitter: 
+        enabled: false
+        rsshub: "https://rsshub.rssforever.com"
+        id: "LiteCat0905"
+        imageProcessing: true
+      github:
+        enabled: false
+        id: "LiteCat0905"
+        minStars: 0
+      license:
+        enabled: true
+        name: "署名 - 非商业性使用 - 禁止演绎 4.0"
+        icon: "Cc-by-nc-nd.svg" # in assets folder
+        url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"
+      announcement:
+        enabled: true
+        file: "README.notes.md"
+      comments:
+        enabled: false
+        provider: "giscus"
+        giscus:
+          <<: *giscus
+          lang: "zh-CN"
   zh-cn:
     contentDir: content/zh-hans
     languageName: 中文

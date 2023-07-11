@@ -6,7 +6,7 @@ date: {{ .Date }}
 draft: true
 keywords: 
 - hugo
-slug: "描述"
+# slug: "link/"
 tags: ["bio"]
 ---
 
