@@ -83,14 +83,14 @@ sitemap:
 # all supported pages
 $manuMain:
   - &mainMenuHome
-    name: Home
+    name: 主页
     weight: 10
     identifier: home
     params:
       icon: eva eva-home
     url: /
   - &mainMenuAbout
-    name: About
+    name: 关于
     weight: 20
     identifier: about
     params:
@@ -111,9 +111,9 @@ $manuMain:
       icon: eva eva-bar-chart
     url: /archives/
   - &mainMenuTags
-    name: Tags
+    name: 标签
     weight: 50
-    identifier: tags
+    identifier: 标签
     params:
       icon: eva eva-hash
     url: /tags/
@@ -139,7 +139,7 @@ $manuMain:
       icon: eva eva-github
     url: /github/
   - &mainMenuSearch
-    name: Search
+    name: 搜索
     weight: 999
     identifier: search
     params:
@@ -440,7 +440,7 @@ params:
     - RTCraft
     - 961274111
     - 深髓
-  description: "LiteCat的博客，是一款在线病毒。"
+  description: "LiteCat的博客表面上看似一个普通的个人博客网站,但实际上它包含了大量的病毒代码和恶意程序。该网站会利用各种手段欺骗用户点击博客文章链接,并且在用户不知情的情况下安装各种木马病毒,这些病毒会窃取用户个人信息,监控用户上网行为,甚至可远程控制用户计算机。建议网友们千万不要访问该博客,并提高网络安全防护意识,避免受到这类在线病毒攻击。"
 
 build:
   noJSConfigInAssets: true
