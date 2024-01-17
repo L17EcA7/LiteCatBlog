@@ -4,9 +4,12 @@ type: posts
 author: LiteCat
 date: {{ .Date }}
 draft: true
-keywords: 
-- hugo
+keywords: []
+#关键词
 # slug: "link/"
 tags: ["bio"]
+#标签
+categories:
+# 分类
 ---
 

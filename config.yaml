@@ -232,7 +232,7 @@ params:
 
   # 网站主题颜色
   # Site theme colors
-  themeColor: "#F6DB70"
+  themeColor: "#E7BA56"
 
   # 设置网站为黑白模式，通常用于哀悼活动
   # Set website to black and white, usually for mourning events
@@ -241,7 +241,7 @@ params:
   # 输出一个漂亮的控制台日志
   # Output a nice console log
   console:
-    enabled: true
+    enabled: false
     leftColor: "#D7D99A"
     leftText: "Hugo Theme Luna"
     rightColor: "#ffa60f"
@@ -342,7 +342,7 @@ params:
   bionicReading:
     enabled: true
     autoBionic: true # 自动启用 Bionic Reading / auto enable Bionic Reading
-    skipLinks: false # 跳过链接 / skip links
+    skipLinks: true # 跳过链接 / skip links
     excludeWords: [] # 忽略的单词 / ignored words
     excludeNodeNames: [] # 忽略的节点名称 / ignored node names
     excludeClasses: ['github'] # 忽略的类名 / ignored classes
@@ -387,7 +387,7 @@ params:
     Password: "LITECATCARDKEY388211"
     # 密码缓存选项 "session" or "local"
     # or "local"
-    Storage: "session"
+    Storage: "local"
 
   # 开启 Pjax 无刷新加载
   # Enable pjax with swup.js
@@ -432,20 +432,48 @@ params:
 
   author: LiteCat
   keywords:
-    - Hugo
-    - Hugo Theme
-    - Luna
     - LiteCat
     - minecraft
     - RTCraft
     - 961274111
     - 深髓
-  description: "LiteCat的博客表面上看似一个普通的个人博客网站,但实际上它包含了大量的病毒代码和恶意程序。该网站会利用各种手段欺骗用户点击博客文章链接,并且在用户不知情的情况下安装各种木马病毒,这些病毒会窃取用户个人信息,监控用户上网行为,甚至可远程控制用户计算机。建议网友们千万不要访问该博客,并提高网络安全防护意识,避免受到这类在线病毒攻击。"
+    - littttt87
+    - L1tEcA7
+    - L17EcA7 
+  description: "LiteCat的博客表面上看似一个普通的个人博客网站,但实际上它包含了大量的······"
 
 build:
   noJSConfigInAssets: true
 
 languages:
+  zh-cn:
+    contentDir: content/main
+    languageName: 中文
+    params:
+      languageIcon: "images/i18n/zh-cn.svg" # in assets folder
+      font: "Times New Roman,Times,Heti Song,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol"
+      twitter: 
+        enabled: false
+        rsshub: "https://rsshub.rssforever.com"
+        id: "LiteCat0905"
+        imageProcessing: true
+      github:
+        id: "LiteCat0905"
+        minStars: 0
+      license:
+        enabled: true
+        name: "署名 - 非商业性使用 - 禁止演绎 4.0"
+        icon: "Cc-by-nc-nd.svg" # in assets folder
+        url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"
+      announcement:
+        enabled: true
+        file: "README.zh.md"
+      comments:
+        enabled: true
+        provider: "giscus"
+        giscus:
+          <<: *giscus
+          lang: "zh-CN"
   notes:
     contentDir: content/notes
     languageName: 中文
@@ -475,68 +503,40 @@ languages:
         giscus:
           <<: *giscus
           lang: "zh-CN"
-  zh-cn:
-    contentDir: content/zh-hans
-    languageName: 中文
-    params:
-      languageIcon: "images/i18n/zh-cn.svg" # in assets folder
-      font: "Times New Roman,Times,Heti Song,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol"
-      twitter: 
-        enabled: false
-        rsshub: "https://rsshub.rssforever.com"
-        id: "LiteCat0905"
-        imageProcessing: true
-      github:
-        id: "LiteCat0905"
-        minStars: 0
-      license:
-        enabled: true
-        name: "署名 - 非商业性使用 - 禁止演绎 4.0"
-        icon: "Cc-by-nc-nd.svg" # in assets folder
-        url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"
-      announcement:
-        enabled: true
-        file: "README.zh.md"
-      comments:
-        enabled: true
-        provider: "giscus"
-        giscus:
-          <<: *giscus
-          lang: "zh-CN"
-  en-us:
-    contentDir: content/en-us
-    languageName: English
-    params:
-      announcement:
-          enabled: true
-          file: "README.en-us.md"
-      languageIcon: "images/i18n/en-us.svg" # in assets folder
-      github:
-        id: "LiteCat0905"
-        minStars: 0
-  ja:
-    contentDir: content/ja
-    languageName: 日本語
-    params:
-      languageIcon: "images/i18n/ja.svg"
-      font: "'-apple-system', BlinkMacSystemFont, 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体', 'Noto Sans Japanese', 'ヒラギノ角ゴ Pro W3', 'メイリオ', 'Hiragino Kaku Gothic ProN', 'MS PGothic', Osaka, 'sans-serif'"
-      announcement:
-        enabled: true
-        file: "README.ja.md"
-      comments:
-        enabled: true
-        provider: "giscus"
-        giscus:
-          <<: *giscus
-          lang: "ja"
-      github:
-        id: "LiteCat0905"
-        minStars: 0
-    menu:
-      main:
-      - *mainMenuHome
-      - *mainMenuArchives
-      - *mainMenuSearch
+  # en-us:
+  #   contentDir: content/en-us
+  #   languageName: English
+  #   params:
+  #     announcement:
+  #         enabled: true
+  #         file: "README.en-us.md"
+  #     languageIcon: "images/i18n/en-us.svg" # in assets folder
+  #     github:
+  #       id: "LiteCat0905"
+  #       minStars: 0
+  # ja:
+  #   contentDir: content/ja
+  #   languageName: 日本語
+  #   params:
+  #     languageIcon: "images/i18n/ja.svg"
+  #     font: "'-apple-system', BlinkMacSystemFont, 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体', 'Noto Sans Japanese', 'ヒラギノ角ゴ Pro W3', 'メイリオ', 'Hiragino Kaku Gothic ProN', 'MS PGothic', Osaka, 'sans-serif'"
+  #     announcement:
+  #       enabled: true
+  #       file: "README.ja.md"
+  #     comments:
+  #       enabled: true
+  #       provider: "giscus"
+  #       giscus:
+  #         <<: *giscus
+  #         lang: "ja"
+  #     github:
+  #       id: "LiteCat0905"
+  #       minStars: 0
+  #   menu:
+  #     main:
+  #     - *mainMenuHome
+  #     - *mainMenuArchives
+  #     - *mainMenuSearch
 
 staticDir:
   - static
