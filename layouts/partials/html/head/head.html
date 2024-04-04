@@ -28,7 +28,7 @@
 
 {{- partial "html/head/opengraph/include.html" . -}}
 
-{{- $favicon_icon := resources.Get "icon.png" -}}
+{{- $favicon_icon := resources.Get "icon.gif" -}}
 {{- $favicon_icon = $favicon_icon.Resize "48x48 ico icon" -}}
 {{- $favicon_icon = slice $favicon_icon | resources.Concat "favicon.ico" -}}
 {{- $favicon_icon = print $public_cdn $favicon_icon.RelPermalink -}}
@@ -38,7 +38,7 @@
 {{- $manifest := resources.Get "manifest.json" | resources.ExecuteAsTemplate (print ("/" | relLangURL) "manifest.json") . -}}
 <link rel="manifest" href="{{- $manifest.RelPermalink -}}" />
 
-{{- $icon := print $public_cdn (resources.Get "icon.png").RelPermalink -}}
+{{- $icon := print $public_cdn (resources.Get "icon.gif").RelPermalink -}}
 <link href="{{- $icon -}}" rel="shortcut icon" />
 <link href="{{- $icon -}}" rel="Bookmark" />
 <link rel="apple-touch-icon" href="{{- $icon -}}" />

@@ -144,7 +144,7 @@ Build output directory
 
 所有图标可以在 [Eva icons](https://akveo.github.io/eva-icons) 查询
 
-你可以通过创建 [assets/icon.png](https://github.com/Ice-Hazymoon/hugo-theme-luna/blob/master/exampleSite/assets/icon.png) 文件来修改你的网站图标
+你可以通过创建 [assets/icon.gif](https://github.com/Ice-Hazymoon/hugo-theme-luna/blob/master/exampleSite/assets/icon.gif) 文件来修改你的网站图标
 
 ### - 💬 评论系统
 
