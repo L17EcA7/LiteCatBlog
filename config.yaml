@@ -206,7 +206,7 @@ params:
     enabled: true
     provider: "giscus" # custom | giscus
     giscus: &giscus
-      repo: "LiteCat0905/MyBlog"
+      repo: "L17EcA7/MyBlog"
       repoID: "R_kgDOJF-oDg"
       category: "Announcements"
       categoryID: "DIC_kwDOJF-oDs4CUruO"
