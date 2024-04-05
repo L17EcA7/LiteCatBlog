@@ -206,13 +206,13 @@ params:
     enabled: true
     provider: "giscus" # custom | giscus
     giscus: &giscus
-      repo: "L17EcA7/MyBlog"
+      repo: "L17EcA7/LiteCatBlog"
       repoID: "R_kgDOJF-oDg"
       category: "Announcements"
       categoryID: "DIC_kwDOJF-oDs4CUruO"
       mapping: "pathname"
       reactionsEnabled: 1
-      emitMetadata: 0
+      emitMetadata: 1
       lazy: true
       lang: "zh-CN"
 
