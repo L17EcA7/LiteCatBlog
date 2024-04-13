@@ -1,0 +1,30 @@
+{
+  "uploadByClipSwitch": true,
+  "uploader": "PicGo",
+  "uploadServer": "http://127.0.0.1:36677/upload",
+  "deleteServer": "http://127.0.0.1:36677/delete",
+  "imageSizeSuffix": "",
+  "picgoCorePath": "C:\\Users\\littt\\AppData\\Roaming\\JetBrains\\WebStorm2023.3\\node\\node-v18.15.0-win-x64",
+  "workOnNetWork": false,
+  "fixPath": false,
+  "applyImage": true,
+  "newWorkBlackDomains": "",
+  "deleteSource": false,
+  "imageDesc": "origin",
+  "remoteServerMode": true,
+  "uploadedImages": [
+    {
+      "isEncrypted": 1,
+      "EncryptedData": "a7571d0cbe5304ec251315765d9bd5dc:1313d1d1376471a451933fe2ed54e0151c7c5d11426ccfbd86da55db28183642ff15e4b7f7ba7765c03ce178661abb27afd851fc62817d0c6aa7d076c6c77d640b70f684fb8304cc3617d9c2e3e8fcf30c0458f579bf417e77245c1fcd9a356022f1da97bbc3063b7e15464970a105c7b2171c590c46cf7b615488006f16fcb3020a2bef414219a9e4bdbdaa4972cec327aa5c4d532fc868814bd2f96a7505de73593e5f235c314e19746535035365236c753e0974bcf37ba07da8bb9cbc83b7a787a262e9502c858e38707dde0ee0b1d343ea958624430da4867e114eb7b1df028bd678966c3a1a5e179f747efe2c769e8f38f5959550781f2ffebbab16eabe4f5d9d66d10a0eeb2a20c7126b9b5901b5f121490a8ff75d577100967ca0fce41edca7347ac5cb407427af1157d5e857a7c73739d348328e7f1fa92ac685f2d9314ef48a1edeea5590d0cc918c11c457905b7638d8357c135f9e8365a42d9c902934650d1adab6d173b59e829f05c2a88b3f70a981eb6ad6bc2cd28b492a97b18cf19d64c2ea147c00e5744e801279d2961e1fe22f293ea64af93f1dc95d7999fb36d54bbea70e3c2d1c6e805d5d6e70dc9232fce9b20c9161e2b2435ff048570c317eade385e3bb6bbd0463b8d6392da647657f448145a91a5bc774448ca8a674d98470769e7c2d934c4e3e5ef19dd9cca592c365386b815a799f46c1efd88a03b9da536ccc303d55bf8225b8dc6ec12179087c27e84a071158ae2646af2d3e94c6aa890cb3c54b9cfc1412615f33dfc88f3a54e1fe808f0288c0651236a430364b701ad0b40c74ed479ca6eccac927b0aacf904242410903e8ab9d82a05bd79aefc1b306e5676bfbff98908d8e8404",
+      "fileName": "64073cadf144a01007afdcd2.webp",
+      "width": 1920,
+      "height": 1080,
+      "extname": ".webp",
+      "imgUrl": "https://litepan.litecat.xyz/@blog/64073cadf144a01007afdcd2.webp",
+      "type": "qiniu",
+      "id": "da167081-e3be-475b-8cd9-beb2cefebe4c",
+      "createdAt": 1712974007910,
+      "updatedAt": 1712974007910
+    }
+  ]
+}

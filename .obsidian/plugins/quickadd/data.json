@@ -1,0 +1,240 @@
+{
+  "choices": [
+    {
+      "id": "d0dc2c33-36b3-4e1a-8687-3d8047acb45b",
+      "name": "新建博客页",
+      "type": "Macro",
+      "command": false,
+      "macroId": "e9eb5276-e666-4f82-b5c3-0d963b6762c2"
+    },
+    {
+      "id": "02ffddb1-be2c-4ffa-a15b-4209b18a3c3c",
+      "name": "新建卡片页",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "5282cc8c-bf79-41c1-815e-09d4a7885bf6",
+          "name": "📑 新建存档页",
+          "type": "Macro",
+          "command": false,
+          "macroId": "69dbb6d5-1549-4c2e-9687-1098032b66d6"
+        },
+        {
+          "id": "125e3a25-b351-48a9-9806-d81c5e1e24e7",
+          "name": "💡 新建灵感页",
+          "type": "Macro",
+          "command": false,
+          "macroId": "9021f730-3a3c-42bd-bdd5-cfdfcd9399a1"
+        },
+        {
+          "id": "603300e8-7b0f-476c-b483-db41f14e4bbb",
+          "name": "✔ 新建确定页",
+          "type": "Macro",
+          "command": false,
+          "macroId": "10f73ac4-dc8f-4e37-b811-6c304ea0de4e"
+        },
+        {
+          "id": "78c6fe4b-8367-45d5-9872-f0282da9765b",
+          "name": "🎨 新建代码页",
+          "type": "Macro",
+          "command": false,
+          "macroId": "b3970e44-b5da-41aa-8e2b-c9b685992115"
+        },
+        {
+          "id": "97e90c21-3a35-45bc-8374-12b06e56378b",
+          "name": "🧫 新建指南针页",
+          "type": "Macro",
+          "command": false,
+          "macroId": "5aa0cfa5-342b-49a6-bc04-a1ca7587e0ee"
+        },
+        {
+          "id": "439b5138-909f-40d7-8ef7-66d3c4e4f721",
+          "name": "✏ 新建更改页",
+          "type": "Macro",
+          "command": false,
+          "macroId": "2778cd29-444e-4a97-bdd7-3ea15211e42c"
+        },
+        {
+          "id": "8a2934d1-6840-4631-905b-686bea57344e",
+          "name": "📢 新建通知页",
+          "type": "Macro",
+          "command": false,
+          "macroId": "ed2892ab-521c-4cb6-923f-e6ed70bb2293"
+        }
+      ],
+      "collapsed": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "新建博客页",
+      "id": "e9eb5276-e666-4f82-b5c3-0d963b6762c2",
+      "commands": [
+        {
+          "name": "NewBlog",
+          "type": "UserScript",
+          "id": "fd908857-4826-4228-87ad-e23f42d0e9f8",
+          "path": "obs_sctipts/NewBlog.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "📑 新建存档页",
+      "id": "69dbb6d5-1549-4c2e-9687-1098032b66d6",
+      "commands": [
+        {
+          "name": "NewArchive",
+          "type": "UserScript",
+          "id": "6f8456c8-ae0f-41dd-abf3-325c2aaaa8e7",
+          "path": "obs_sctipts/NewArchive.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "💡 新建灵感页",
+      "id": "9021f730-3a3c-42bd-bdd5-cfdfcd9399a1",
+      "commands": [
+        {
+          "name": "Newbulb",
+          "type": "UserScript",
+          "id": "9ac7eda5-3dcd-4645-a022-c0e5cbcc979e",
+          "path": "obs_sctipts/Newbulb.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "✔ 新建确定页",
+      "id": "10f73ac4-dc8f-4e37-b811-6c304ea0de4e",
+      "commands": [
+        {
+          "name": "Newcheckmark",
+          "type": "UserScript",
+          "id": "32c72fc1-5582-4e75-8fe1-7d46320190f6",
+          "path": "obs_sctipts/Newcheckmark.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "🎨 新建代码页",
+      "id": "b3970e44-b5da-41aa-8e2b-c9b685992115",
+      "commands": [
+        {
+          "name": "Newcode",
+          "type": "UserScript",
+          "id": "5f1ccae0-d50c-4d35-a6f7-44049a92d136",
+          "path": "obs_sctipts/Newcode.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "🧫 新建指南针页",
+      "id": "5aa0cfa5-342b-49a6-bc04-a1ca7587e0ee",
+      "commands": [
+        {
+          "name": "Newcompass",
+          "type": "UserScript",
+          "id": "d3856c32-28d2-4c2a-b280-df1a07cc0bae",
+          "path": "obs_sctipts/Newcompass.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "✏ 新建更改页",
+      "id": "2778cd29-444e-4a97-bdd7-3ea15211e42c",
+      "commands": [
+        {
+          "name": "Newedit",
+          "type": "UserScript",
+          "id": "a6b3e997-9177-458f-903c-fa8242d99efa",
+          "path": "obs_sctipts/Newedit.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "📢 新建通知页",
+      "id": "ed2892ab-521c-4cb6-923f-e6ed70bb2293",
+      "commands": [
+        {
+          "name": "Newstatus",
+          "type": "UserScript",
+          "id": "7640531d-4fc9-4c7c-a1d1-0fa6d7b48ece",
+          "path": "obs_sctipts/Newstatus.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "multi-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": false,
+  "version": "1.8.1",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}

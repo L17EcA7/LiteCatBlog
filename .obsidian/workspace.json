@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "c9ff12b8856644d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cf59d0527ea5b39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cca0f50c52ef935",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8cf27d2bd925b4b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bacbf311ff9b5d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c78f6c692a6549a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "be53acf3f33d8fd5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "601af039d5e6c5fe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b8247f920723c045",
+    "type": "split",
+    "children": [
+      {
+        "id": "df76ba55e1db2d53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f89dbcf01fc02b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "71798deb753f0063",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a360d081be15452c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "04940adf08c17f25",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "3cca0f50c52ef935",
+  "lastOpenFiles": [
+    "assets/icon.png",
+    "assets/icon.gif",
+    "content/main/about.md",
+    "content/main/posts/20240118.md",
+    "content/main/posts/230306-1.md",
+    "content/main/compass/2062/index.md",
+    "content/main/compass/2062/4.png",
+    "content/main/compass/2062/雪香汀.png",
+    "content/main/compass/2062/2.png",
+    "content/main/compass/2062/3.png",
+    "content/main/compass/2062/8.png",
+    "content/main/compass/2044/index.md",
+    "content/main/compass/2044/64073cadf144a01007afdcd2.png",
+    "content/main/links/index.md",
+    "content/main/links/mikutools.webp",
+    "content/main/links/mcbbs.png",
+    "未命名.md",
+    "content/main/archives.md",
+    "content/main/archive/2041/index.md",
+    "obs_sctipts/Newstatus.js",
+    "obs_sctipts/NewArchive copy.js",
+    "obs_sctipts/Newedit.js",
+    "obs_sctipts/Newcompass.js",
+    "obs_sctipts/New.js",
+    "obs_sctipts/Newcode.js",
+    "obs_sctipts/Newbulb copy.js",
+    "obs_sctipts/Newcheckmark.js",
+    "obs_sctipts/Newbulb.js",
+    "content/main/archive/2088/index.md",
+    "content/main/archive/2088",
+    "content/main/archive/2064/index.md",
+    "content/main/posts/2065.md",
+    "public/notes/2023/07/11/cinematicstudio-汉化文档.litecat/21_hueb7aa619d21b99aa729293fc7de49fd8_56848_fc1a911eef4074a747033ab1769c28d4.jpg",
+    "themes/hugo-theme-luna/node_modules/available-typed-arrays/README.md",
+    "themes/hugo-theme-luna/node_modules/available-typed-arrays/CHANGELOG.md",
+    "themes/hugo-theme-luna/node_modules/lines-and-columns/README.md",
+    "themes/hugo-theme-luna/node_modules/@jridgewell/set-array/README.md",
+    "themes/hugo-theme-luna/node_modules/queue-microtask/README.md",
+    "themes/hugo-theme-luna/node_modules/is-extglob/README.md",
+    "themes/hugo-theme-luna/node_modules/picocolors/README.md",
+    "themes/hugo-theme-luna/node_modules/tailwindcss/CHANGELOG.md",
+    "themes/hugo-theme-luna/node_modules/postcss-load-config/node_modules/yaml/README.md",
+    "themes/hugo-theme-luna/node_modules/sucrase/README.md",
+    "themes/hugo-theme-luna/node_modules/autoprefixer/README.md",
+    "themes/hugo-theme-luna/node_modules/tailwindcss/src/postcss-plugins/nesting/README.md",
+    "themes/hugo-theme-luna/node_modules/tailwindcss/src/value-parser/README.md"
+  ]
+}
