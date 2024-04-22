@@ -12,7 +12,7 @@ tags:
 slug: "@rtcraft/2044"
 ---
 新区域即将开放·「雪香汀」
-![64073cadf144a01007afdcd2.png](https://litepan.litecat.xyz/@blog/64073cadf144a01007afdcd2.webp)
+![](https://litepan.litecat.xyz/@blog/64073cadf144a01007afdcd2.webp)
 
 {{< quote-center >}}
 人们常说，雪香汀是深髓的开端
