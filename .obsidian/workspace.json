@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3cf59d0527ea5b39",
+        "id": "cae1385d4fd4d7c2",
         "type": "tabs",
         "children": [
           {
-            "id": "3cca0f50c52ef935",
+            "id": "1051b3d7f40ead49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/main/bulb/2143/index.md",
+                "file": "content/main/posts/2156.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/main/bulb/2143/index.md",
+                "file": "content/main/posts/2156.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/main/bulb/2143/index.md",
+                "file": "content/main/posts/2156.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/main/bulb/2143/index.md"
+                "file": "content/main/posts/2156.md"
               }
             }
           }
@@ -142,17 +142,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3cca0f50c52ef935",
+  "active": "1051b3d7f40ead49",
   "lastOpenFiles": [
-    "content/main/posts/2116.md",
+    "content/main/posts/ShortCodes/index.md",
+    "content/main/posts/230306-1.md",
+    "content/main/about.md",
+    "content/main/posts/2156.md",
     "content/main/bulb/2143/index.md",
+    "content/main/posts/2116.md",
     "content/main/bulb/2143",
     "content/main/bulb",
     "assets/icon.png",
     "assets/icon.gif",
-    "content/main/about.md",
     "content/main/posts/20240118.md",
-    "content/main/posts/230306-1.md",
     "content/main/compass/2062/index.md",
     "content/main/compass/2062/4.png",
     "content/main/compass/2062/雪香汀.png",
@@ -187,8 +189,6 @@
     "themes/hugo-theme-luna/node_modules/picocolors/README.md",
     "themes/hugo-theme-luna/node_modules/tailwindcss/CHANGELOG.md",
     "themes/hugo-theme-luna/node_modules/postcss-load-config/node_modules/yaml/README.md",
-    "themes/hugo-theme-luna/node_modules/sucrase/README.md",
-    "themes/hugo-theme-luna/node_modules/autoprefixer/README.md",
-    "themes/hugo-theme-luna/node_modules/tailwindcss/src/postcss-plugins/nesting/README.md"
+    "themes/hugo-theme-luna/node_modules/sucrase/README.md"
   ]
 }
