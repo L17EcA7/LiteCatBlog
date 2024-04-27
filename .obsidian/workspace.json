@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/main/posts/20240118.md",
+                "file": "content/main/posts/2135.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/main/posts/20240118.md",
+                "file": "content/main/posts/2135.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/main/posts/20240118.md",
+                "file": "content/main/posts/2135.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/main/posts/20240118.md"
+                "file": "content/main/posts/2135.md"
               }
             }
           }
@@ -144,6 +144,8 @@
   },
   "active": "1051b3d7f40ead49",
   "lastOpenFiles": [
+    "content/main/posts/20240118.md",
+    "content/main/posts/2135.md",
     "content/main/posts/230306-1.md",
     "content/main/posts/2156.md",
     "content/main/links/index.md",
@@ -157,7 +159,6 @@
     "content/main/bulb",
     "assets/icon.png",
     "assets/icon.gif",
-    "content/main/posts/20240118.md",
     "content/main/compass/2062/4.png",
     "content/main/compass/2062/雪香汀.png",
     "content/main/compass/2062/2.png",
@@ -188,7 +189,6 @@
     "themes/hugo-theme-luna/node_modules/is-extglob/README.md",
     "themes/hugo-theme-luna/node_modules/picocolors/README.md",
     "themes/hugo-theme-luna/node_modules/tailwindcss/CHANGELOG.md",
-    "themes/hugo-theme-luna/node_modules/postcss-load-config/node_modules/yaml/README.md",
-    "themes/hugo-theme-luna/node_modules/sucrase/README.md"
+    "themes/hugo-theme-luna/node_modules/postcss-load-config/node_modules/yaml/README.md"
   ]
 }
