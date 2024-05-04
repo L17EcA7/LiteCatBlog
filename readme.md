@@ -1,7 +1,7 @@
 #### 📋 环境
 ##### 注意，在使用该主题之前，请确保你遵循以下环境
 
-- hugo-extended 版本 = 0.104.3
+- hugo-extended 版本 = [0.104.3](https://github.com/gohugoio/hugo/releases/tag/v0.104.3) 
 
 - NodeJs >= 16.0.0
 
