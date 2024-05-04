@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/main/about.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/main/about.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/main/about.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/main/about.md"
+                "file": "readme.md"
               }
             }
           }
@@ -144,51 +144,51 @@
   },
   "active": "1051b3d7f40ead49",
   "lastOpenFiles": [
-    "content/main/posts/2135.md",
-    "content/main/posts/20240118.md",
-    "content/main/posts/230306-1.md",
-    "content/main/posts/2156.md",
-    "content/main/links/index.md",
-    "content/main/compass/2062/index.md",
-    "content/main/compass/2044/index.md",
-    "content/main/bulb/2143/index.md",
-    "content/main/posts/ShortCodes/index.md",
     "content/main/about.md",
-    "content/main/posts/2116.md",
-    "content/main/bulb/2143",
-    "content/main/bulb",
-    "assets/icon.png",
-    "assets/icon.gif",
-    "content/main/compass/2062/4.png",
-    "content/main/compass/2062/雪香汀.png",
-    "content/main/compass/2062/2.png",
-    "content/main/compass/2062/3.png",
-    "content/main/compass/2062/8.png",
-    "content/main/compass/2044/64073cadf144a01007afdcd2.png",
-    "content/main/links/mikutools.webp",
-    "content/main/links/mcbbs.png",
-    "未命名.md",
-    "content/main/archives.md",
-    "content/main/archive/2041/index.md",
-    "obs_sctipts/Newstatus.js",
-    "obs_sctipts/NewArchive copy.js",
-    "obs_sctipts/Newedit.js",
-    "obs_sctipts/Newcompass.js",
-    "obs_sctipts/New.js",
-    "obs_sctipts/Newcode.js",
-    "obs_sctipts/Newbulb copy.js",
-    "obs_sctipts/Newcheckmark.js",
-    "content/main/archive/2088/index.md",
-    "content/main/archive/2064/index.md",
-    "content/main/posts/2065.md",
-    "themes/hugo-theme-luna/node_modules/available-typed-arrays/README.md",
-    "themes/hugo-theme-luna/node_modules/available-typed-arrays/CHANGELOG.md",
-    "themes/hugo-theme-luna/node_modules/lines-and-columns/README.md",
-    "themes/hugo-theme-luna/node_modules/@jridgewell/set-array/README.md",
-    "themes/hugo-theme-luna/node_modules/queue-microtask/README.md",
-    "themes/hugo-theme-luna/node_modules/is-extglob/README.md",
-    "themes/hugo-theme-luna/node_modules/picocolors/README.md",
-    "themes/hugo-theme-luna/node_modules/tailwindcss/CHANGELOG.md",
-    "themes/hugo-theme-luna/node_modules/postcss-load-config/node_modules/yaml/README.md"
+    "resources/_gen/assets/scss/sass/translateelement.scss_48b060fe05b0a273d182ef83c0605941.content",
+    "resources/_gen/assets/scss/sass/translateelement.scss_48b060fe05b0a273d182ef83c0605941.json",
+    "resources/_gen/assets/scss/sass/main.scss_647942d69097b4314989a5335f057037.json",
+    "resources/_gen/assets/scss/sass/main.scss_647942d69097b4314989a5335f057037.content",
+    "resources/_gen/assets/scss/sass",
+    "resources/_gen/assets/scss",
+    "resources/_gen/images/posts/cinematicstudio/22_hu78118cc0f6331295bb270e86190daac1_8693_70ea54973a296653fc872539b1a2cfc0.jpg",
+    "resources/_gen/images/posts/cinematicstudio/22_hu78118cc0f6331295bb270e86190daac1_8693_0x20_resize_q95_bgffffff_catmullrom_3.jpg",
+    "resources/_gen/images/posts/cinematicstudio/22_hu78118cc0f6331295bb270e86190daac1_8693_449x0_resize_q95_h2_catmullrom_3.webp",
+    "resources/_gen/images/posts/cinematicstudio/22_hu78118cc0f6331295bb270e86190daac1_8693_449x0_resize_catmullrom_3.png",
+    "resources/_gen/images/posts/cinematicstudio/19_hubb593eb30e716a6cc90a4aeb30320bc7_24780_c08e2fcb17d2072fa4a56ffbe2c8ac08.jpg",
+    "resources/_gen/images/posts/cinematicstudio/19_hubb593eb30e716a6cc90a4aeb30320bc7_24780_0x20_resize_q95_bgffffff_catmullrom_3.jpg",
+    "resources/_gen/images/posts/cinematicstudio/19_hubb593eb30e716a6cc90a4aeb30320bc7_24780_815x0_resize_q95_h2_catmullrom_3.webp",
+    "resources/_gen/images/posts/cinematicstudio/19_hubb593eb30e716a6cc90a4aeb30320bc7_24780_815x0_resize_catmullrom_3.png",
+    "resources/_gen/images/posts/cinematicstudio/18_hu8eabe9fa2ebd5573d810d3c2dadfaabc_18128_2897eb3cd519aa7afc35442619384105.jpg",
+    "resources/_gen/images/posts/cinematicstudio/18_hu8eabe9fa2ebd5573d810d3c2dadfaabc_18128_0x20_resize_q95_bgffffff_catmullrom_3.jpg",
+    "resources/_gen/images/posts/cinematicstudio",
+    "resources/_gen/images/posts",
+    "resources/_gen/getresource",
+    "themes/hugo-theme-luna/node_modules/opencollective-postinstall",
+    "themes/hugo-theme-luna/node_modules/es-abstract/README.md",
+    "themes/hugo-theme-luna/node_modules/es-abstract/CHANGELOG.md",
+    "themes/hugo-theme-luna/node_modules/wrap-ansi-cjs/node_modules/strip-ansi/readme.md",
+    "themes/hugo-theme-luna/node_modules/wrap-ansi-cjs/node_modules/string-width/readme.md",
+    "themes/hugo-theme-luna/node_modules/wrap-ansi-cjs/node_modules/emoji-regex/README.md",
+    "themes/hugo-theme-luna/node_modules/wrap-ansi-cjs/node_modules/ansi-regex/readme.md",
+    "themes/hugo-theme-luna/node_modules/wrap-ansi-cjs/node_modules/ansi-styles/readme.md",
+    "themes/hugo-theme-luna/node_modules/svgo/node_modules/commander/Readme.md",
+    "themes/hugo-theme-luna/node_modules/sucrase/node_modules/minimatch/README.md",
+    "themes/hugo-theme-luna/node_modules/svgo/node_modules/commander/CHANGELOG.md",
+    "themes/hugo-theme-luna/node_modules/sucrase/node_modules/glob/README.md",
+    "themes/hugo-theme-luna/node_modules/sucrase/node_modules/commander/Readme.md",
+    "themes/hugo-theme-luna/node_modules/sucrase/node_modules/commander/CHANGELOG.md",
+    "themes/hugo-theme-luna/node_modules/strip-ansi-cjs/node_modules/ansi-regex/readme.md",
+    "themes/hugo-theme-luna/node_modules/string-width-cjs/node_modules/strip-ansi/readme.md",
+    "themes/hugo-theme-luna/node_modules/string-width-cjs/node_modules/emoji-regex/README.md",
+    "themes/hugo-theme-luna/node_modules/string-width-cjs/node_modules/ansi-regex/readme.md",
+    "themes/hugo-theme-luna/node_modules/purgecss/node_modules/commander/Readme.md",
+    "themes/hugo-theme-luna/node_modules/postcss-replace-values/node_modules/picocolors/README.md",
+    "themes/hugo-theme-luna/node_modules/postcss-replace-values/node_modules/postcss/README.md",
+    "themes/hugo-theme-luna/node_modules/postcss-load-config/node_modules/lilconfig/readme.md",
+    "themes/hugo-theme-luna/node_modules/postcss-easing-gradients/node_modules/postcss-value-parser/README.md",
+    "themes/hugo-theme-luna/node_modules/postcss-easing-gradients/node_modules/picocolors/README.md",
+    "themes/hugo-theme-luna/node_modules/postcss-easing-gradients/node_modules/postcss/README.md",
+    "themes/hugo-theme-luna/node_modules/fast-glob/node_modules/glob-parent/README.md"
   ]
 }
