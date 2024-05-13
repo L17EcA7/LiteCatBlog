@@ -10,7 +10,7 @@ timeZone: Asia/Shanghai
 
 # 可根据 Git 中的提交生成最近更新记录。
 # use git commit log to generate lastmod record
-enableGitInfo: false
+enableGitInfo: true
 
 # 如果你的博客包含中日韩语，请启用此选项
 # enable CJK language support
@@ -258,7 +258,7 @@ params:
   # 网站字体
   # Site font
   # font: '"Times New Roman", Times, "Heti Song", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
-  font: 'Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif'
+  font: 'Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif, Heti Song, Segoe UI Emoji'
 
   # 自定义脚本
   # ts/custom.ts

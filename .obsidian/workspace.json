@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cae1385d4fd4d7c2",
+        "id": "cec24914536bc0dd",
         "type": "tabs",
         "children": [
           {
-            "id": "1051b3d7f40ead49",
+            "id": "ca53d20de9fb9715",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme.md",
+                "file": "content/main/posts/2094/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "content/main/posts/2094/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
+                "file": "content/main/posts/2094/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md"
+                "file": "content/main/posts/2094/index.md"
               }
             }
           }
@@ -142,8 +142,27 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1051b3d7f40ead49",
+  "active": "ca53d20de9fb9715",
   "lastOpenFiles": [
+    "content/main/posts/2094/featured.png",
+    "content/main/posts/2094/index.md",
+    "content/main/posts/ShortCodes/index.md",
+    "content/main/posts/2135.md",
+    "resources/_gen/images/posts/2094/featured_hu022a1cf4dd3ffe80b9c12d8226f5e170_634156_88bd03dd8d3599a89d1dc9011e093f31.jpg",
+    "resources/_gen/images/posts/2094/featured_hu022a1cf4dd3ffe80b9c12d8226f5e170_634156_0x20_resize_q95_bgffffff_catmullrom_3.jpg",
+    "resources/_gen/images/posts/2094/featured_hu022a1cf4dd3ffe80b9c12d8226f5e170_634156_512x0_resize_q95_h2_catmullrom_3.webp",
+    "resources/_gen/images/posts/2094/featured_hu022a1cf4dd3ffe80b9c12d8226f5e170_634156_512x0_resize_catmullrom_3.png",
+    "resources/_gen/images/posts/2094",
+    "resources/_gen/images/bulb/2094/featured_hu022a1cf4dd3ffe80b9c12d8226f5e170_634156_88bd03dd8d3599a89d1dc9011e093f31.jpg",
+    "resources/_gen/images/bulb/2094/featured_hu022a1cf4dd3ffe80b9c12d8226f5e170_634156_0x20_resize_q95_bgffffff_catmullrom_3.jpg",
+    "resources/_gen/images/bulb/2094/featured_hu022a1cf4dd3ffe80b9c12d8226f5e170_634156_512x0_resize_q95_h2_catmullrom_3.webp",
+    "resources/_gen/images/bulb/2094/featured_hu022a1cf4dd3ffe80b9c12d8226f5e170_634156_512x0_resize_catmullrom_3.png",
+    "resources/_gen/images/bulb/2094",
+    "resources/_gen/images/bulb",
+    "content/main/bulb/2094/00000.png",
+    "content/main/posts/2094",
+    "readme.md",
+    "content/main/posts/2145.md",
     "content/main/about.md",
     "resources/_gen/assets/scss/sass/translateelement.scss_48b060fe05b0a273d182ef83c0605941.content",
     "resources/_gen/assets/scss/sass/translateelement.scss_48b060fe05b0a273d182ef83c0605941.json",
@@ -151,20 +170,6 @@
     "resources/_gen/assets/scss/sass/main.scss_647942d69097b4314989a5335f057037.content",
     "resources/_gen/assets/scss/sass",
     "resources/_gen/assets/scss",
-    "resources/_gen/images/posts/cinematicstudio/22_hu78118cc0f6331295bb270e86190daac1_8693_70ea54973a296653fc872539b1a2cfc0.jpg",
-    "resources/_gen/images/posts/cinematicstudio/22_hu78118cc0f6331295bb270e86190daac1_8693_0x20_resize_q95_bgffffff_catmullrom_3.jpg",
-    "resources/_gen/images/posts/cinematicstudio/22_hu78118cc0f6331295bb270e86190daac1_8693_449x0_resize_q95_h2_catmullrom_3.webp",
-    "resources/_gen/images/posts/cinematicstudio/22_hu78118cc0f6331295bb270e86190daac1_8693_449x0_resize_catmullrom_3.png",
-    "resources/_gen/images/posts/cinematicstudio/19_hubb593eb30e716a6cc90a4aeb30320bc7_24780_c08e2fcb17d2072fa4a56ffbe2c8ac08.jpg",
-    "resources/_gen/images/posts/cinematicstudio/19_hubb593eb30e716a6cc90a4aeb30320bc7_24780_0x20_resize_q95_bgffffff_catmullrom_3.jpg",
-    "resources/_gen/images/posts/cinematicstudio/19_hubb593eb30e716a6cc90a4aeb30320bc7_24780_815x0_resize_q95_h2_catmullrom_3.webp",
-    "resources/_gen/images/posts/cinematicstudio/19_hubb593eb30e716a6cc90a4aeb30320bc7_24780_815x0_resize_catmullrom_3.png",
-    "resources/_gen/images/posts/cinematicstudio/18_hu8eabe9fa2ebd5573d810d3c2dadfaabc_18128_2897eb3cd519aa7afc35442619384105.jpg",
-    "resources/_gen/images/posts/cinematicstudio/18_hu8eabe9fa2ebd5573d810d3c2dadfaabc_18128_0x20_resize_q95_bgffffff_catmullrom_3.jpg",
-    "resources/_gen/images/posts/cinematicstudio",
-    "resources/_gen/images/posts",
-    "resources/_gen/getresource",
-    "themes/hugo-theme-luna/node_modules/opencollective-postinstall",
     "themes/hugo-theme-luna/node_modules/es-abstract/README.md",
     "themes/hugo-theme-luna/node_modules/es-abstract/CHANGELOG.md",
     "themes/hugo-theme-luna/node_modules/wrap-ansi-cjs/node_modules/strip-ansi/readme.md",
@@ -183,12 +188,6 @@
     "themes/hugo-theme-luna/node_modules/string-width-cjs/node_modules/emoji-regex/README.md",
     "themes/hugo-theme-luna/node_modules/string-width-cjs/node_modules/ansi-regex/readme.md",
     "themes/hugo-theme-luna/node_modules/purgecss/node_modules/commander/Readme.md",
-    "themes/hugo-theme-luna/node_modules/postcss-replace-values/node_modules/picocolors/README.md",
-    "themes/hugo-theme-luna/node_modules/postcss-replace-values/node_modules/postcss/README.md",
-    "themes/hugo-theme-luna/node_modules/postcss-load-config/node_modules/lilconfig/readme.md",
-    "themes/hugo-theme-luna/node_modules/postcss-easing-gradients/node_modules/postcss-value-parser/README.md",
-    "themes/hugo-theme-luna/node_modules/postcss-easing-gradients/node_modules/picocolors/README.md",
-    "themes/hugo-theme-luna/node_modules/postcss-easing-gradients/node_modules/postcss/README.md",
-    "themes/hugo-theme-luna/node_modules/fast-glob/node_modules/glob-parent/README.md"
+    "themes/hugo-theme-luna/node_modules/postcss-replace-values/node_modules/picocolors/README.md"
   ]
 }
