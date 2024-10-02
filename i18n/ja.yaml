@@ -126,7 +126,7 @@ switchLang: "言語を {{ . }} に変更する"
 
 noscript: "JavaScriptを有効にしてください"
 
-poweredBy: "Powered by {{ .Hugo }} {{ .Heart }} {{ .Theme }} Copyright © 2023 L1teCat"
+poweredBy: "Powered by {{ .Hugo }} {{ .Heart }} {{ .Theme }} Copyright © L1teCat"
 
 notFound: "指定されたページは存在しません。"
 
