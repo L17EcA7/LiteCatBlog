@@ -1,2 +1,8 @@
 resources
 public
+.idea/deployment.xml
+.idea/LiteCatBlog.iml
+.idea/modules.xml
+.idea/sshConfigs.xml
+.idea/webServers.xml
+.idea/vcs.xml
