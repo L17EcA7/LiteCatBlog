@@ -4,10 +4,10 @@ date: 2021-08-23T15:26:35+08:00
 layout: "links"
 ---
 #### 我的项目
-{{< link url="https://www.pibopibo.com/" image="https://www.favicon.vip/get.php?url=https://www.pibopibo.com/" title="PiboPibo 论坛" desc="皮波皮波 PiboPibo 论坛是一个非常自由开放的现代化多元化交流平台，这里聚集了大量游戏玩家、开发者及爱好者。本论坛欢迎各位新老用户的加入，这里可以畅所欲言，分享各类游戏心得及资源。本论坛会持续努力，营造更加自由、包容的环境，让这里成为游戏圈内更有温度的社区。" >}}
+{{< link url="https://www.pibopibo.com/" image="https://www.pibopibo.com/get_favicon.php?url=https://www.pibopibo.com/" title="PiboPibo 论坛" desc="皮波皮波 PiboPibo 论坛是一个非常自由开放的现代化多元化交流平台，这里聚集了大量游戏玩家、开发者及爱好者。本论坛欢迎各位新老用户的加入，这里可以畅所欲言，分享各类游戏心得及资源。本论坛会持续努力，营造更加自由、包容的环境，让这里成为游戏圈内更有温度的社区。" >}}
 
 #### 友情链接
-{{< link url="https://linexic.top/" image="https://linexic.top/logo.png" title="LineXic书屋" desc="念念不忘，必有回响" >}}
+{{< link url="https://blog.linexic.top/" image="https://blog.linexic.top/logo.png" title="LineXic书屋" desc="念念不忘，必有回响" >}}
 #### 开发类
 {{< link url="https://github.com/" image="github.png" title="GitHub" desc="非常优秀的代码托管平台" >}}
 {{< link url="https://tabooproject.org/" image="https://kether.tabooproject.org/assets/img/taboolib-icon.png" title="TabooLib" desc="病毒库" >}}
