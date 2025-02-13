@@ -1,2 +1,2 @@
-Sitemap: https://www.litecat.xyz/zh-cn/sitemap.xml
-Sitemap: https://www.litecat.xyz/notes/sitemap.xml
+Sitemap: https://www.litecat.dev/zh-cn/sitemap.xml
+Sitemap: https://www.litecat.dev/notes/sitemap.xml

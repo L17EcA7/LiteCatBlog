@@ -10,7 +10,7 @@ tags:
 categories:
   - 灵感
   - 小说
-featured_image: https://litepan.litecat.xyz/@blog/202405140057842.webp
+featured_image: https://litepan.litecat.dev/@blog/202405140057842.webp
 ---
 
 我记得这是好几年前了，
